@@ -1,0 +1,26 @@
+﻿{
+  "extends": [
+    "tslint-clean-code",
+    "tslint-consistent-codestyle",
+    "tslint-sonarts",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "curly": false,
+    "no-null-keyword": false,
+    "newline-per-chained-call": false,
+    "array-type": false,
+    "max-line-length": [
+      true,
+      {
+        "limit": 140
+      }
+    ],
+    "no-unused-variable": true
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/**/*.spec.ts"
+    ]
+  }
+}
