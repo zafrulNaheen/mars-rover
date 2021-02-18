@@ -1,5 +1,6 @@
 ﻿{
   "extends": [
+    "backend-tslint-rules",
     "tslint-clean-code",
     "tslint-consistent-codestyle",
     "tslint-sonarts",
